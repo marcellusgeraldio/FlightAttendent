@@ -58,15 +58,12 @@ Setiap jadwal berisi informasi seperti:
 
 1. **Daftar Jadwal Penerbangan**
    Menampilkan seluruh jadwal penerbangan yang tersimpan.
-   *(Lihat gambar pertama)*
 
 2. **Form Tambah Jadwal Baru**
    Memasukkan data penerbangan baru dengan input terstruktur.
-   *(Lihat gambar kedua)*
 
 3. **Dialog Update Penumpang**
    Memperbarui jumlah penumpang secara cepat dan efisien.
-   *(Lihat gambar ketiga)*
 
 ---
 
