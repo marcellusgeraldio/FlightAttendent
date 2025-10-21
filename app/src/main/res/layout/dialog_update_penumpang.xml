@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textViewDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Jumlah Penumpang"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDialogInfoPesawat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Pesawat: Boeing 737"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewDialogInfoTujuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Tujuan: Denpasar"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewDialogInfoJam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Jam: 14:30 WIB"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewDialogInfoMaksPenumpang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Maks Penumpang: 150"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextDialogJumlahPenumpangSaatIni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Jumlah Penumpang Saat Ini"
+        android:inputType="number" />
+
+</LinearLayout>
